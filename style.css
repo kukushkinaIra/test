@@ -1,3 +1,37 @@
+header .form-control{
+    /* width: 550px; */
+    position: relative;
+    border-radius: 0;
+    background-color: #F3F3F3;
+    border-color: #F3F3F3;
+}
+
+header .form-control:focus{
+    box-shadow: none;
+}
+
+header i{
+    position: absolute;
+    right: 20px;
+}
+
+header .navbar-light .navbar-nav .nav-link{
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+header .navbar-light .navbar-nav .nav-link:hover{
+    color: white;
+}
+
+header .nav-item:hover{
+    background-color: #E69A37;
+}
+
+
+
+
 section.prom .btn-primary{
     border-radius: 0;
 
@@ -168,4 +202,21 @@ section.prom .carousel-item{
     section.prom h1{
         font-size: 32px;
     }
+}
+
+section.type p{
+    font-family: Museo Sans Cyrl, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+section.type p:hover{
+    text-decoration: underline;
+    color: #323232;
+}
+
+section.type .list:hover{
+    background: #F3F3F3;
 }
